@@ -1,6 +1,6 @@
 /* 1.Random Emoji Generator */
 body{
-    height:100vh;
+    height: 100vh;
     background-color: rgb(135, 235, 177);
 }
 .header{
@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Montserrat', sans-serif;
     font-weight: 700; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -30,58 +30,22 @@ h1{
 .emojis{
     font-size:  90px;
     transition-property: transform;
-    transition-duration:550ms;
+    transition-duration: 550ms;
 }
 .emojis:hover{
-    transform:scale(1.5);
+    transform: scale(1.5);
 }
 .texts{
-    font-size:30px;
-    color:black;
+    font-size: 30px;
+    color: black;
     text-align: center;
     font-family: Arial, sans-serif;
-    transition-duration:750ms;
+    transition-duration: 750ms;
 }   
-
-/* 2. Bg color change by clicking button */
-body{
-    margin:0;
-    box-sizing: border-box;
-}
-.buttons{
-    height:100vh;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    gap:190px;
-}
-.btn{
-    padding:20px 30px;
-    border:none; 
-    border-radius:5px;   
-}
-.btn:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-}
-#green{
-    background-color: green;
-}
-#blue{
-    background-color: blue;
-}
-#pink{
-    background-color: pink;
-}
-#white{
-    background-color: white;
-}
-#cyan{
-    background-color: cyan;
-}
 p{
-    margin-left:800px;
+    margin-left: 800px;
     font-weight: bold;
-    font-size:20px;
+    font-size: 20px;
 }
+
 
